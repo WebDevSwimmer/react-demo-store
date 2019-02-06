@@ -1,20 +1,13 @@
 <p align="center">
-  <a href="https://ilovelamp.now.sh">
+  <a>
     <img src="https://i.imgur.com/B1EZxsB.png" alt="Moltin React Demo Store" />
   </a>
 </p>
 
-# Moltin &mdash; React Demo Store
-
-An example store built using [React](https://reactjs.org/), [Redux](https://redux.js.org/) and [moltin](https://moltin.com). This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-* [Demo](https://ilovelamp.now.sh)
-* [API Reference](https://docs.moltin.com)
-
 ## Development
 
 ```bash
-git clone https://github.com/moltin/react-demo-store.git
+git clone https://github.com/zhangwei5479/react-demo-store.git
 cd react-demo-store
 yarn # or npm install
 yarn start # or npm start
@@ -28,7 +21,7 @@ This demo store uses the Redux "[ducks](https://github.com/erikras/ducks-modular
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+![Deploy](https://www.herokucdn.com/deploy/button.png)
 
 ### Docker
 
@@ -38,13 +31,11 @@ This demo store uses the Redux "[ducks](https://github.com/erikras/ducks-modular
 4. Run the docker image with the command `docker run -p 5000 IMAGE_ID` where `IMAGE_ID` is the image ID shown in the result of step 3.
 5. Access your app on port 5000
 
-## Using this app with your own moltin store
+## Copyright and license
 
-The app expects a certain inventory setup to correctly function as an ILoveLamp store, if you'd like to build it from the ground up, here's what to do:
-
-1. [Create a collection](https://docs.moltin.com/collection#create-a-collection) with the slug `top_picks`
-2. [Create at least one category](https://docs.moltin.com/collection#create-a-category)
-3. [Create at least one product](https://docs.moltin.com/collection#create-a-product)
-4. [Create at least one file i.e. an image for your product](https://docs.moltin.com/collection#create-a-file)
-5. [Attach the product/s to the category and collection](https://docs.moltin.com/collection#create-category-relationship-s-)
-6. [Attach the file to the product as a main image](https://docs.moltin.com/collection#create-file-relationship-s-)
+The MIT License (MIT). Please see License File for more information.
+<p align="center"><img src="https://avatars3.githubusercontent.com/u/47307975?s=400&u=5d3a6ad302503c236b60f5d85a0e32d564898838&v=4" width="50" height="50"/></p>
+<p align="center">
+  <sub>A little project by <a href="https://github.com/zhangwei5479">Zhang Wei</a></sub>
+</p>
+</p>
